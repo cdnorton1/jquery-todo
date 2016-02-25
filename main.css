@@ -1,3 +1,12 @@
+/* FONTS
+
+font-family: 'Poiret One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Libre Baskerville', serif;*/
+
+
+
+
 .delete {
 	cursor: pointer;
 }
@@ -6,3 +15,76 @@
 	text-decoration: line-through;
 }
 
+ /* General styles */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Indie Flower', cursive;
+	background-color: #0353A4;
+	color: #003559;
+}
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	color: #006DAA;
+	text-align: center;
+}
+.container {
+	background-color: #B9D6F2;
+	width: 80%;
+	margin: 25px auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+/* Form styles */
+.form {
+	width: 50%;
+	margin: 50px auto;
+}
+form input {
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid #0353A4;
+	font-size: 1.2em;
+	font-family: 'Indie Flower', cursive;
+	color: #9b9b9b;
+}
+form button {
+	margin-left: auto;
+	height: 40px;
+	width: 120px;
+	color: #0353A4;
+	border: 2px solid #0353A4;
+	border-radius: 10px;
+	background-color: #fff;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.1em;
+}
+form button:hover {
+	background-color: #0353A4;
+	color: #fff;
+}
+p#warning {
+	padding-left: 10px;
+}
+/* List styles */
+.list {
+	width: 40%;
+	margin: 50px auto;
+}
+.list ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+.list li, form {
+	display: flex;
+	align-items: center;
+}
+span.delete {
+	margin-left: auto;
+	color: #0353A4;
+	font-size: 1.5em;
+	font-family: 'Indie Flower', cursive;
+}
